@@ -1,0 +1,16 @@
+<!DOCTYPE suite SYSTEM "http://testng.org/testng-1.0.dtd">
+<suite name="My Suite" preserve-order="true">
+    <test name="Test1">
+        <parameter name="url" value="https://piter-online.net/"/>
+        <classes>
+            <class name="ApplicationSubmissionTest"/>
+        </classes>
+    </test>
+
+    <test name="Test2">
+        <parameter name="url" value="https://101internet.ru/"/>
+        <classes>
+            <class name="TariffApplicationTest"/>
+        </classes>
+    </test>
+</suite>
